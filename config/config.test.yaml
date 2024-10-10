@@ -38,9 +38,9 @@ filtering:
 downsampling:
   do: false
 tmp_dir: "tmp"
-outputdir: "testoutput"
+outputdir: "/data/fairmic/Clara_MiCoDaV2/testoutput_3"
 final_table_filtering:
   do: false
 hand_off:
-  biom: true
-  phyloseq: true
+  biom: false
+  phyloseq: false
